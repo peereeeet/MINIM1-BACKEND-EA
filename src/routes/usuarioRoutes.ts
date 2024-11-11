@@ -19,15 +19,13 @@ import {
     modificarNombreUsuarioPorId,
     modificarPasswordUsuarioPorId,
     modificarRolUsuarioPorId,
-    obtenerAsignaturasPaginadasDeUsuario,
-    loginUsuario
+    obtenerAsignaturasPaginadasDeUsuario
 } from '../controller/usuarioController';
 
 const router = express.Router();
 
 ////////////////////////////////////RUTAS SIN PARÁMETROS/////////////////////////////////////
 router.post('/', crearUsuario);  // Crear usuario
-router.post('/login', loginUsuario);
 router.get('/listar-paginados', obtenerUsuariosPaginados);  // Nueva ruta de paginación (asegúrate de que esté antes de las rutas con parámetros)
 router.get('/', listarUsuarios);  // Listar todos los usuarios
 
