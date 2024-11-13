@@ -1,2 +1,4 @@
-# Repo Backend Grup 4 de EA Q1 2024-25 --> TeachMe
-Jordi Figueras, Pere Garcés, Bryan García i Júlia Roquet
+# FRONTEND I BACKEND MINIM 1 PERE GARCES EXERCICI 5
+
+S'ha implementat un registre de la duració de les sessions dels usuaris en el Backend,
+i pel Frontend una pàgina per poder veure l'activitat de cadascú.
